@@ -35,18 +35,7 @@ const Home = () => (
 				</li>
 			))}
 		</ul>
-		<h3>
-			<span>Author in social networks:</span>
-		</h3>
-		<ul className='socialList'>
-			{SOCIAL_CONFIG.map(({ id, socialLink, imageLink, imgHeight }) => (
-				<li key={id} className='socialItem'>
-					<a className='socialLink' href={socialLink} rel='noopener noreferrer' target='_blank'>
-						<img src={imageLink} height={imgHeight} alt={id} />
-					</a>
-				</li>
-			))}
-		</ul>
+
 	</Fragment>
 );
 
