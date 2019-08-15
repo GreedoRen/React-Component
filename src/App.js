@@ -1,10 +1,13 @@
 import React from 'react';
+import Navigation from './Navigation';
+import Main from './Main';
 import './App.css';
 
 function App() {
 	return (
 		<div className='App'>
-			<h1 />
+			<Navigation />
+			<Main />
 		</div>
 	);
 }
