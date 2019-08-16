@@ -6,6 +6,10 @@ class Navigation extends Component {
 		return (
 			<div>
 				<h1>Navigation</h1>
+				<span>Link1</span>
+				<span>Link2</span>
+				<span>Link3</span>
+				<span>Link4</span>
 			</div>
 		);
 	}
