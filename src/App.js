@@ -1,15 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navigation from './Navigation/Navigation';
 import Main from './Main/Main';
 import './App.css';
 
 function App() {
 	return (
-		<div className='App'>
+		<Router>
 			<Navigation />
-			<Main />
-		</div>
+			<Route exact path='/' component={Home} />
+			<Route exact path='/main' component={Main} />
+			<Route exact path='/page' component={Page} />
+			<Route exact path='/topic' component={Topic} />
+		</Router>
 	);
 }
 
