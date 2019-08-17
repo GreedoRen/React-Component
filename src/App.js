@@ -5,12 +5,14 @@ import Main from './components/Main/Main';
 import Page from './components/Page/Page';
 import Topic from './components/Topic/Topic';
 import home from './components/Home/Home';
+import Header from './components/Header/Header';
 import './App.css';
 
 class App extends Component {
 	render() {
 		return (
 			<Router>
+				<Header />
 				<Navigation />
 				<div className='App'>
 					<Switch>
