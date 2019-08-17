@@ -1,7 +1,9 @@
 .App {
-	text-align: left;
+	text-align: center;
 	display: flex;
-	flex-direction: column;
+	color: red;
+	justify-content: center;
+	width: 80%;
 }
 
 .App-logo {

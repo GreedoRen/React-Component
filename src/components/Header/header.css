@@ -1,3 +1,13 @@
 .header {
-	display: inline;
+	display: flex;
+}
+
+.logo {
+	width: 192px;
+	background-color: #167ade;
+	color: white;
+	font-size: 18px;
+	line-height: 16px;
+	padding: 16px 20px;
+	text-transform: uppercase;
 }
