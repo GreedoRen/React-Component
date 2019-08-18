@@ -11,3 +11,11 @@
 	padding: 16px 20px;
 	text-transform: uppercase;
 }
+
+.headerInput {
+	border-color: white;
+	color: #5a5a5a;
+	margin-left: 40px;
+	font-size: 14px;
+	line-height: 19px;
+}

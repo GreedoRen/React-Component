@@ -2,6 +2,7 @@
 	text-align: center;
 	display: flex;
 	color: red;
+	background-color: #ffffff;
 	justify-content: center;
 	width: 80%;
 }
@@ -34,4 +35,8 @@
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+.container {
+	background-color: #eeeeee;
 }
