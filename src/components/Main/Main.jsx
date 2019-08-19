@@ -6,6 +6,7 @@ class Main extends Component {
 		return (
 			<div>
 				<h1>Main</h1>
+				<div>Main text test1</div>
 			</div>
 		);
 	}
