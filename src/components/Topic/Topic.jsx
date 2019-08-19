@@ -5,6 +5,7 @@ class Topic extends Component {
 		return (
 			<div>
 				<h1>TOPIC 1 HELOO</h1>
+				<div>Topic text test1</div>
 			</div>
 		);
 	}
