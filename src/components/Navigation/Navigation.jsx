@@ -7,22 +7,34 @@ class Navigation extends Component {
 		return (
 			<ul className='navigation'>
 				<li>
-					<Link to='/'>Главная</Link>
+					<Link to='/' className='navLink'>
+						Главная
+					</Link>
 				</li>
 				<li>
-					<Link to='/main'>Пункт меню</Link>
+					<Link to='/main' className='navLink'>
+						Пункт меню
+					</Link>
 				</li>
 				<li>
-					<Link to='/page'>Пункт меню</Link>
+					<Link to='/page' className='navLink'>
+						Пункт меню
+					</Link>
 				</li>
 				<li>
-					<Link to='/topic'>Пункт меню</Link>
+					<Link to='/topic' className='navLink'>
+						Пункт меню
+					</Link>
 				</li>
 				<li>
-					<Link to='/topicTwo'>Пункт меню в две строки</Link>
+					<Link to='/topicTwo' className='navLink'>
+						Пункт меню в две строки
+					</Link>
 				</li>
 				<li>
-					<Link to='/topic'>Пункт меню </Link>
+					<Link to='/topic' className='navLink'>
+						Пункт меню{' '}
+					</Link>
 				</li>
 			</ul>
 		);
