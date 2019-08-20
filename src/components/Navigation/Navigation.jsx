@@ -33,7 +33,7 @@ class Navigation extends Component {
 				</li>
 				<li className='navLi'>
 					<Link to='/topic' className='navLink'>
-						Пункт меню{' '}
+						Пункт меню
 					</Link>
 				</li>
 			</ul>
