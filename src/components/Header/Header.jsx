@@ -7,6 +7,7 @@ class Header extends Component {
 			<header className='header'>
 				<div className='logo'>Logo</div>
 				<input type='text' id='headerInput' className='headerInput' name='headerInput' placeholder='Поиск' />
+				<div>Logo 2</div>
 			</header>
 		);
 	}
