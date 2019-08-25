@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './main.css';
 
 class Main extends Component {
+	state = {
+		open: true
+	};
+
 	render() {
 		return (
 			<div>
