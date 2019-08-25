@@ -14,6 +14,7 @@ class Main extends Component {
 				<div>Dialog box 1</div>
 				<div>Dialog box 1</div>
 				<div>Dialog box 1</div>
+				<div>Dialog box 1</div>
 			</div>
 		);
 	}
