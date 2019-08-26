@@ -11,7 +11,7 @@ class Main extends Component {
 			<div>
 				<h1>Main</h1>
 				<div>Main text test1</div>
-				<div>Dialog box 1</div>
+				<div onClick={() => {}}>Dialog box 1</div>
 			</div>
 		);
 	}
