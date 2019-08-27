@@ -12,6 +12,7 @@ class Main extends Component {
 				<h1>Main</h1>
 				<div>Main text test1</div>
 				<div onClick={() => {}}>Dialog box 1</div>
+				<span>Span text</span>
 			</div>
 		);
 	}
